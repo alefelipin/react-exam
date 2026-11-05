@@ -1,8 +1,8 @@
 import books from "../data/books.json";
 import BookCard from "./BookCard";
 
-
 export default function BookList() {
+
   return(
     <section>
     {
@@ -11,7 +11,6 @@ export default function BookList() {
           key={book.id}
           book={book}
         />
-
       ))
     }
     </section>
