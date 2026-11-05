@@ -28,7 +28,7 @@ export default function BookDetail() {
       <h3>Description: {book.description}</h3> 
       <p>Genre:{book.genre}</p>  
       <p>Publication date:{book.publishedYear}</p>  
-      <p>{book.isbn}</p> 
+      <p>ISBN:{book.isbn}</p> 
       <Link to="/">Back to books</Link>
     </div>  
   )
